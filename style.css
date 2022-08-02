@@ -1,0 +1,353 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1100px;
+	height: 1500px;
+	margin: 0 auto;
+}
+.header{
+	height: 133px;
+	background-color: #333333 ;
+}
+.row{
+	width: 960px;
+	margin: 0 auto;
+}
+.header .row .hleft, .header .row .hright{
+	width: 480px;
+	float: left;
+}
+.hleft div{
+	font-family: "Myriad Pro";
+	font-size: 60px;
+	color: #eeeeee;
+	line-height: 133px;
+}
+.header .hright ul{
+	list-style: none;
+	margin-top: 72px;
+}
+.header .hright ul li{
+	color: #eeeeee;
+	font-family: "Arial";
+	float: left;
+
+}
+.header .hright ul li a{
+	text-decoration-line: none;
+	color: inherit;
+	margin-left: 10px;
+}
+.header .hright ul li .active{
+	color: #00aeef;
+}
+.title{
+	height: 208px;
+	border: 1px solid white;
+}
+.title .row{
+	width: 960px;
+	height: 140px;
+	margin-top: 65px;	
+	border-bottom: dotted #bbbbbb;			
+}
+.ttop{
+	font-family: ;
+	color: #333333;
+	font-size: 59px;
+	font-weight: bold;
+}
+.tbottom{
+	font-family: "Myriad Pro";
+	color: #bbbbbb;
+	font-size: 49px;
+}
+.about{
+	height: 188px ;
+	border: 1px solid white;
+}
+.about .row{
+	width: 960px;
+	height: 150px;
+	margin-top: 36px;
+	border-bottom: dotted #bbbbbb;
+}
+.about .row .atext{
+	font-family: ;
+	color: #555555;
+	font-size: 32px;
+}
+.about .row .atext .bold{
+	font-weight: bold;
+}
+.boxs{
+	border: 1px solid white;
+	height: 452px;	
+}
+.boxs .row{
+	width: 960px;
+	height: 404px;
+	display: flex;
+	margin-top: 48px;
+	border-bottom: dotted #bbbbbb;
+}
+.boxs .row .box1 .boxrow{
+	width: 238px;
+	margin: 22px;
+}
+.boxs .row .box2 .boxrow{
+	width: 238px;
+	margin: 22px;
+}
+.boxs .row .box3 .boxrow{
+	width: 238px;
+	margin: 22px;
+}
+.boxs .row .box1{
+	width: 282px;
+	height: 352px;
+	background-color: #00aeef;
+	border-radius: 15px;
+}
+.boxs .row .box2{
+	width: 282px;
+	height: 352px;
+	margin-left: 62px;
+	background-color: #00aeef;
+	border-radius: 15px;
+}
+.boxs .row .box3{
+	width: 282px;
+	height: 352px;
+	margin-left: 62px;
+	background-color: #00aeef;
+	border-radius: 15px;
+}
+.boxs .row .box1 .boxrow .textname{
+	border-bottom: dotted white;
+	text-align: center;
+	font-size: 39px;
+	color: #ffffff;
+}
+.boxs .row .box2 .boxrow .textname2{
+	border-bottom: dotted white;
+	text-align: center;
+	font-size: 39px;
+	color: #ffffff;
+}
+.boxs .row .box3 .boxrow .textname3{
+	border-bottom: dotted white;
+	text-align: center;
+	font-size: 39px;
+	color: #ffffff;
+}
+.boxs .row .box1 .boxrow .text1{
+	margin-top: 26px;
+	text-align: center;
+	font-size: 15px;
+	color: #ffffff;
+	line-height: 20px;
+}
+.boxs .row .box2 .boxrow .text2{
+	margin-top: 26px;
+	text-align: center;
+	font-size: 15px;
+	color: #ffffff;
+	line-height: 20px;
+}
+.boxs .row .box3 .boxrow .text3{
+	margin-top: 26px;
+	text-align: center;
+	font-size: 15px;
+	color: #ffffff;
+	line-height: 20px;
+}
+.boxs .row .box1 .boxrow .moretext{
+	width: 232px;
+	height: 42px;
+	margin-top: 32px;
+	border: 1px solid blue;
+	background-color:#0076a3;
+	border-radius: 10px;
+}
+.boxs .row .box1 .boxrow .moretext a{
+	line-height: 42px;
+	margin: 28px;
+	text-decoration-line: none;
+	color: white;
+}
+.boxs .row .box2 .boxrow .moretext2{
+	width: 232px;
+	height: 42px;
+	margin-top: 32px;
+	border: 1px solid blue;
+	background-color:#0076a3;
+	border-radius: 10px;
+}
+.boxs .row .box2 .boxrow .moretext2 a{
+	line-height: 42px;
+	margin: 28px;
+	text-decoration-line: none;
+	color: white;
+}
+.boxs .row .box3 .boxrow .moretext3 {
+	width: 232px;
+	height: 42px;
+	margin-top: 32px;
+	border: 1px solid blue;
+	background-color:#0076a3;
+	border-radius: 10px;
+}
+.boxs .row .box3 .boxrow .moretext3 a {
+	line-height: 42px;
+	margin: 28px;
+	color: white;
+	text-decoration-line: none;
+}
+.details{
+	width: 1100px;
+	height: 453px;
+}
+.details .row{
+	width: 960px;
+	height: 453px;
+	display: flex;
+	border-bottom: dotted #bbbbbb;
+}
+.details .row .dleft{
+	width: 481px;
+	height: 385px;
+	border-right:dotted #bbbbbb;
+	margin-top: 34px;
+}
+.details .row .dleft .sarlavha{
+	font-size: 24px;
+	color: #555555;
+}
+.details .row .dleft .qator1{
+	display: flex;
+	margin-top: 31px;
+}
+.details .row .dleft .qator2{
+	display: flex;
+	margin-top: 31px;
+}
+.details .row .dleft .qator3{
+	display: flex;
+	margin-top: 31px;
+}
+.details .row .dleft .text1 .tabout{
+	margin: 10px;
+	font-size: 14px;
+	color: #555555;
+}
+.details .row .dleft .text2 .tabout2{
+	margin: 10px;
+	font-size: 14px;
+	color: #555555;
+}
+.details .row .dleft .text3 .tabout3{
+	margin: 10px;
+	font-size: 14px;
+	color: #555555;
+}
+.details .row .dleft .text1 .tname{
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 10px;
+	color: #555555;
+}
+.details .row .dleft .text2 .tname2{
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 10px;
+	color: #555555;
+}
+.details .row .dleft .text3 .tname3{
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 10px;
+	color: #555555;
+}
+.details .row .dleft .text1 .tssilka a{
+	text-decoration-line: none;
+	font-size: 14px;
+	font-family: "Arial";
+	color: #00aeef;
+	margin-left: 10px;
+}
+.details .row .dleft .text2 .tssilka2 a{
+	text-decoration-line: none;
+	font-size: 14px;
+	font-family: "Arial";
+	color: #00aeef;
+	margin-left: 10px;
+}
+.details .row .dleft .text3 .tssilka3 a{
+	text-decoration-line: none;
+	font-size: 14px;
+	font-family: "Arial";
+	color: #00aeef;
+	margin-left: 10px;
+}
+.details .row .dleft .rasm1{
+	width: 85px;
+	height: 84px;
+	border: 1px solid white;
+}
+.details .row .dleft .rasm2{
+	width: 85px;
+	height: 84px;
+	border: 1px solid white;
+}
+.details .row .dleft .rasm3{
+	width: 85px;
+	height: 84px;
+	border: 1px solid white;
+}
+.details .row .dright{
+	width: 475px;
+	height: 385px;
+	margin-top: 34px;
+}
+.details .row .dright .sarlavha{
+	font-size: 24px;
+	margin-left: 50px;
+	color: #555555;
+}
+.details .row .dright .fotoname{
+	font-size: 20px;
+	color: #888888;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.details .row .dright .foto img{
+	width: 430px;
+	height: 208px;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+.details .row .dright .about{	
+	height: 60px;
+	font-family: "Arial";
+	font-size: 14px;
+	margin-left: 50px;
+	margin-top: 10px;
+	color: #555555 ;
+}
+.details .row .dright .dssilka a{
+	text-decoration-line: none;
+	font-family: "Arial";
+	font-size: 14px;
+	color: #00aeef;
+	margin-left: 50px;
+}
+.info{
+	font-size: 16px;
+	font-family: "Arial";
+	color: #888888;
+	margin-top: 20px;
+	margin-left: 65px;
+}
